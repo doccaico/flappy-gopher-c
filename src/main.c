@@ -207,9 +207,9 @@ void init_game (Game* game)
 {
     game->gopher = (Gopher){
         .x      = 200.0f,
-            .y      = 150.0f,
-            .width  = 60,
-            .height = 75,
+        .y      = 150.0f,
+        .width  = 60,
+        .height = 75,
     };
     game->velocity = 0.0f;
     game->gravity = 0.1f;
