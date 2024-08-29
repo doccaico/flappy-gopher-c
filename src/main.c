@@ -205,12 +205,13 @@ void load_textures(const char* assets_path, const char** file_names, const char*
 
 void init_game (Game* game)
 {
-    game->gopher = (Gopher){
-        .x      = 200.0f,
-        .y      = 150.0f,
-        .width  = 60,
-        .height = 75,
-    };
+    game->gopher =
+        (Gopher) {
+            .x      = 200.0f,
+            .y      = 150.0f,
+            .width  = 60,
+            .height = 75,
+        };
     game->velocity = 0.0f;
     game->gravity = 0.1f;
     game->frames = 0;
@@ -272,8 +273,7 @@ int main()
                     dest,
                     (Vector2){0.0f, 0.0f},
                     0,
-                    WHITE
-                    );
+                    WHITE);
         }
         EndDrawing();
     }
