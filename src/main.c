@@ -35,7 +35,6 @@ typedef struct {
     const char* score_string;
     Wall* walls;
     Scene scene;
-    bool retry;
 }Game;
 
 
